@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+credentials.json
+*.pem
+
+# Local outputs & caches
+outputs/
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/secrets.toml
+
+# Large / downloaded model assets (fetched at runtime if missing)
+assets/models/*.task
+assets/models/*.pth
+assets/models/*.pt
+assets/models/*.onnx
+assets/models/*.bin
+
+# Hugging Face / torch caches
+.cache/
+**/huggingface/
