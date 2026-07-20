@@ -1,10 +1,10 @@
+streamlit
+numpy
+pillow
+scipy
+matplotlib
+mediapipe
+opencv-python-headless
 torch
 torchvision
 transformers
-mediapipe
-opencv-python
-numpy
-pillow
-matplotlib
-streamlit
-scipy
