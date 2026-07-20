@@ -3,8 +3,9 @@ numpy
 pillow
 scipy
 matplotlib
-mediapipe
-opencv-python-headless
 torch
 torchvision
 transformers
+mediapipe
+# Must come after mediapipe so the headless wheel replaces any GUI OpenCV pull.
+opencv-python-headless==4.10.0.84
